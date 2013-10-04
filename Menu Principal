@@ -1,0 +1,28 @@
+Sistema-Vehicular
+=================
+
+Elaboracion de un sistema Vehicular
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+<title>Sistema De consulta de Licencia de Autos</title>
+<address>Danny Fernandez</address>
+<body id="sistemaVehicular "background="imagen.jpg">
+<center><h1><label>Sistema de Consulta Vehicular</label></h1></center>
+<center>
+<!--Este es el Menu de ingreso-->
+<form>
+<label>Usuario</label><input type="text" name="usuario" id="usuario" /> </br>
+<label>Contrasena</label><input type="password" name="contraseña" id="contraseña" /> </br>
+<input type="button" id="ingreso" name="ingreso" value="Ingreso" /> <br>
+</form>
+</center>
+</body>
+		<footer>
+			<div>
+				<span>CopyRight 2013</span>
+				<a href="www.google.com">Ingreso y busca</a>
+            </div>
+		</footer>
+</html>
