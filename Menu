@@ -1,16 +1,20 @@
+<!DOCTYPE html>
 <html>
 <head>
 </head>
-<title>Sistema De consulta de Licencia de Autos</title>
+<title>Sistema De consulta Vehicular</title>
 <address>Danny Fernandez</address>
 <body id="sistemaVehicular "background="imagen.jpg">
 <center><h1><label>Sistema de Consulta Vehicular</label></h1></center>
 <center>
 <!--Este es el Menu de ingreso-->
-<form>
+<form id="ingresoUsuario" name="ingresoUsuario">
 <label>Usuario</label><input type="text" name="usuario" id="usuario" /> </br>
 <label>Contrasena</label><input type="password" name="contraseña" id="contraseña" /> </br>
 <input type="button" id="ingreso" name="ingreso" value="Ingreso" /> <br>
+<audio width="300" height="32" src="micancion.mp3" controls="controls" autoplay="autoplay" preload="">
+</audio>
+
 </form>
 </center>
 </body>
