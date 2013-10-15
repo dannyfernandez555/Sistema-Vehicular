@@ -1,0 +1,44 @@
+<!DOCTYPE HTML>
+<head>
+	<meta http-equiv="content-type" content="text/html" />
+	<meta name="author" content="Boomer" />
+
+	<title>Sistema de Registro de Usuario</title>
+</head>
+
+<body onload="generar()">
+<form>
+<div id="hola">
+</div>
+</form>
+
+
+</body>
+</html>
+<script>
+
+function generar()
+
+        {
+            var h="";
+            h+="<center>ESTE ES MI CODIGO CON JAVA SCRIPT<br>"
+            h+="<br><h1>Sistema de Ingreso</h1></br>"
+            h+="Usuario<br><input type='text' id='name'></br>"
+            h+="Email<br><input type='email' id='name'></br>"
+            h+="Contrasena<br><input type='password' id='name'></br>"
+             h+="<br><input type='submit' id='name' value='Entrar' onclick='validar()'></center>"
+            
+            
+            document.getElementById('hola').innerHTML=h;
+
+        }
+            function validar()
+            {
+                alert('Usted va a Ingresar')
+                
+            }
+
+
+
+
+</script>
